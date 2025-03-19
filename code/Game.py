@@ -3,7 +3,7 @@
 
 import pygame
 
-from Const import WIN_WIDTH, WIN_HEIGHT
+from asset.Const import WIN_WIDTH, WIN_HEIGHT
 from code.Menu import Menu
 
 
