@@ -11,6 +11,7 @@ class Game:
     def __init__(self):
         pygame.init()  # Required to initialize Pygame
         self.window = pygame.display.set_mode(size=(WIN_WIDTH, WIN_HEIGHT))  # Window siz
+
     def run (self):
 
         while True:
@@ -18,7 +19,4 @@ class Game:
             menu.run()
             pass
 
-            # for event in pygame.event.get():
-            #     if event.type == pygame.QUIT:
-            #         pygame.quit()# Close Window
-            #         quit()# End pygame
+
