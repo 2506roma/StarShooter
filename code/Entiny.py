@@ -3,3 +3,7 @@
 
 class Entiny:
     pass
+
+
+class Entity:
+    pass
